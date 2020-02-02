@@ -191,3 +191,16 @@ list-style: none;
 font-size: 18px;
 color: #3399FF;
   }
+
+  .card:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 4px 6px 1px #cacaca;
+}
+.card {
+  
+  transition-duration: 6s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  
+}
