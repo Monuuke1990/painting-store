@@ -9,7 +9,7 @@ export default class product extends Component {
         return (
             <div className="flex-container">
 
-                <div className="card">
+                <div className="card animated  fadeInUp delay-1s">
                     <ProductConsumer>
                         {
                             (value) => (<div>
